@@ -1,8 +1,8 @@
-package helloworld;
-
-import test.TestPublisher;
+package learn.simplehelloworld;
 
 public class ConfigurationImpl implements Configuration {
+	
+	private Publisher publisher;
 
 	@Override
 	public Publisher getPublisher() {
@@ -12,6 +12,4 @@ public class ConfigurationImpl implements Configuration {
 	public void setPublisher(Publisher publisher) {
 		this.publisher = publisher;
 	}
-
-	private Publisher publisher = new TestPublisher();
 }

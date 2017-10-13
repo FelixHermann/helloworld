@@ -1,6 +1,9 @@
-package helloworld;
+package learn.simplehelloworld;
 
 public class App {
+	
+	private Publisher publisher;
+	private final String HELLO_WORLD_MESSAGE = "Hello World!";
 	
 	public App(Configuration configuration) {
 		this.publisher = configuration.getPublisher();
@@ -9,7 +12,4 @@ public class App {
 	public void publishHelloWorld() {
 		this.publisher.publishText(HELLO_WORLD_MESSAGE);
 	}
-	
-	private Publisher publisher;
-	private final String HELLO_WORLD_MESSAGE = "Hello World!";
 }

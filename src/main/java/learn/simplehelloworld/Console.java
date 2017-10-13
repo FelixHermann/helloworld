@@ -1,4 +1,4 @@
-package helloworld;
+package learn.simplehelloworld;
 
 public class Console implements Publisher {
 
