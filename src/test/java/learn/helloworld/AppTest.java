@@ -1,4 +1,4 @@
-package learn.simplehelloworld;
+package learn.helloworld;
 
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;

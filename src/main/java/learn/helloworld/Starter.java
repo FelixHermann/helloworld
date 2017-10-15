@@ -1,4 +1,4 @@
-package learn.simplehelloworld;
+package learn.helloworld;
 
 public class Starter {
 
