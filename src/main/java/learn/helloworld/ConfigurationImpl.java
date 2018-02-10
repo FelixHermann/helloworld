@@ -4,7 +4,6 @@ public class ConfigurationImpl implements Configuration {
 	
 	private Publisher publisher;
 
-	@Override
 	public Publisher getPublisher() {
 		return publisher;
 	}
